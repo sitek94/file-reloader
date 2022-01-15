@@ -1,0 +1,4 @@
+{
+  "name": "files-reloader",
+  "description": "Super simple WebSocket based file reloader"
+}
