@@ -2,6 +2,16 @@
 <html lang="en">
 <head>
   <title>file reloader</title>
+
+  <script>
+    const ws = new WebSocket('ws://localhost:8080');
+    ws.onmessage = (event) => {
+      if (event.data === 'refresh') {
+        window.location.reload();
+      }
+    };
+  </script>
+
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
