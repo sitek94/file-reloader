@@ -1,21 +1,16 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <title>file reloader</title>
-
-  <script>
-    const ws = new WebSocket('ws://localhost:8080');
-    ws.onmessage = (event) => {
-      if (event.data === 'refresh') {
-        window.location.reload();
-      }
-    };
-  </script>
-
+  <meta charset="utf-8">
+  <link
+    rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>"
+  />
   <link rel="stylesheet" href="style.css" />
+  <title>file reloader</title>
 </head>
 <body>
-  <h1>file reloader</h1>
+  <h1>file reloader 🤖</h1>
 
   <script src="script.js"></script>
 </body>

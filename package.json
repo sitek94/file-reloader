@@ -1,8 +1,8 @@
 {
-  "name": "files-reloader",
+  "name": "file-reloader",
   "description": "Super simple WebSocket based file reloader",
   "scripts": {
-    "start": "node server/index.mjs"
+    "start": "node server/index.js"
   },
   "devDependencies": {
     "@types/ws": "^8.2.2",
