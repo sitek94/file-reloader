@@ -1,6 +1,6 @@
 {
-  "name": "file-reloader",
-  "description": "Super simple WebSocket based file reloader",
+  "name": "live-reload",
+  "description": "Super simple WebSocket based live reload",
   "scripts": {
     "start": "node server/index.js"
   },
